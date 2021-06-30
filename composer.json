@@ -1,0 +1,21 @@
+{
+    "name": "ogenes/phone-check",
+    "description": "固话和手机号自动解析验证",
+    "type": "libary",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ogenes\\PhoneCheck\\": "src/PhoneCheck"
+        }
+    },
+    "authors": [
+        {
+            "name": "ogenes",
+            "email": "ogenes.yi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0"
+    }
+}
